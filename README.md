@@ -8,7 +8,7 @@ El programa realiza consultas a la API pública [Gutendex](https://gutendex.com/
 
 ## 🔍 Funcionalidades principales
 
-Al ejecutar el programa, se despliega un menú con ocho (8) opciones. A continuación se describen:
+Al ejecutar el programa, se despliega un menú con ocho (5) opciones. A continuación se describen:
 
 ### 1. Buscar libro por título  
 - Consulta si el libro ingresado existe en la API.  
@@ -31,26 +31,6 @@ Al ejecutar el programa, se despliega un menú con ocho (8) opciones. A continua
 - Si el idioma no está identificado, aparece como `"desconocido"`.
 
 > ✅ Estas cinco opciones cubren los requisitos mínimos del desafío.
-
----
-
-## 🧩 Funcionalidades adicionales
-
-### 6. Buscar un libro en la base de datos  
-- Busca un libro específico en el repositorio local.  
-- Muestra su información si se encuentra, o un mensaje si no está.
-
-### 7. Buscar un autor  
-- Permite buscar un autor específico en la base de datos.  
-- Muestra sus detalles o indica si no fue encontrado.
-
-### 8. Top 5 libros más descargados  
-- Consulta la base de datos completa.  
-- Elimina posibles registros con datos incompletos (`null`).  
-- Ordena los libros por número de descargas (descendente).  
-- Muestra el título, número de descargas y autor.
-
----
 
 ### 0. Salir  
 - Finaliza la ejecución del programa.
